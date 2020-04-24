@@ -1,0 +1,5 @@
+storage/*
+.idea/
+config/secrets.yml
+__pycache__/
+.DS_Store
