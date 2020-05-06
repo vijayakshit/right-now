@@ -9,7 +9,7 @@ from utils.right_now import add_a_stamp, undo_last_stamp, print_all_stamps, prin
 	get_exact_db_path_for_date
 from utils.time_utils import get_current_stamps
 
-config_yaml_path = "./config/config.yml"
+config_yaml_path = str(os.path.join(os.path.dirname(__file__), './config/config.yml'))
 json_db_directory_path = str(os.path.join(os.path.dirname(__file__), 'storage/'))
 
 CONFIG = load_yaml_file_as_dict(config_yaml_path)
