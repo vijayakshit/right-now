@@ -6,16 +6,18 @@ right-now is a simple script that runs on command line and helps you track what 
 
 2. Installation
 
-    #add alias to your bash_profile/bash_rc/zshrc
+    # Clone this Repo
+
+    # add alias to your bash_profile/bash_rc/zshrc
 
        alias rnw='python3 <path to the clone>/right-now/main.py'  
 
-    #Install Libraries
+    # Install Libraries
 
        pip3 install -r requirements.txt
     
      
-    #generate slack token at https://api.slack.com/legacy/custom-integrations/legacy-tokens
+    # generate slack token at https://api.slack.com/legacy/custom-integrations/legacy-tokens
     
 3. Usage
    Start an Activity:
