@@ -33,3 +33,5 @@ right-now is a simple script that runs on command line and helps you track what 
      Make this Easily installable
 
 Reach out to akshit.vijay@mindtickle.com for concerns
+
+PS: Also Dont Judge the Code, this is really old. :P
